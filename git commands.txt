@@ -1,0 +1,46 @@
+### **Git Basic Commands Cheat Sheet** 🚀  
+
+**📌 Setup & Configuration**  
+`git config --global user.name "Your Name"` – Set global username  
+`git config --global user.email "your@email.com"` – Set global email  
+`git config --list` – Check global configurations  
+
+**📌 Repository Initialization**  
+`git init` – Initialize a new Git repository  
+`git clone <repo_url>` – Clone an existing repo  
+
+**📌 Branching & Merging**  
+`git branch` – List branches  
+`git branch <branch_name>` – Create a new branch  
+`git checkout <branch_name>` – Switch to a branch  
+`git checkout -b <branch_name>` – Create & switch to a new branch  
+`git merge <branch_name>` – Merge branch into the current branch  
+`git branch -d <branch_name>` – Delete a branch locally  
+`git push origin --delete <branch_name>` – Delete a branch remotely  
+
+**📌 Staging & Committing**  
+`git status` – Check file status  
+`git add <file>` – Stage a specific file  
+`git add .` – Stage all changes  
+`git commit -m "Commit message"` – Commit staged changes  
+`git commit --amend -m "Updated message"` – Modify the last commit message  
+
+**📌 Viewing History**  
+`git log` – View commit history  
+`git log --oneline --graph --decorate` – Compact commit history  
+`git show <commit_hash>` – Show details of a specific commit  
+
+**📌 Undo Changes**  
+`git reset <file>` – Unstage a file  
+`git reset --hard <commit_hash>` – Reset to a specific commit  
+
+**📌 Pushing & Pulling**  
+`git push origin <branch_name>` – Push branch to remote  
+`git pull origin <branch_name>` – Pull latest changes  
+
+**📌 Working with Remote Repositories**  
+`git remote -v` – List remote repositories  
+`git remote add origin <repo_url>` – Add a remote repository  
+`git remote remove origin` – Remove a remote repository  
+
+This covers the most essential Git commands! 🚀 Let me know if you need more details.
